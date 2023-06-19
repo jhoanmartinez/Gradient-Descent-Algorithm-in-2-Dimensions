@@ -31,9 +31,12 @@ To use the Gradient Descent algorithm in 2 dimensions, follow these steps:
 # Example
 
   ```
-  # Set initial point
-  initial_point = (-0.5743824  -1.84219917)
+  # Set initial point randomly
+  np.random.rand(2) * 4 - 2
+  startpnt = localmin[:] 
   
+  # Set initial point static
+  startpnt = [-0.5743824,  -1.84219917]
 
   # Set learning rate
   learning_rate = 0.01
