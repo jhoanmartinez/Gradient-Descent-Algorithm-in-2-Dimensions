@@ -32,13 +32,14 @@ To use the Gradient Descent algorithm in 2 dimensions, follow these steps:
 
   ```
   # Set initial point
-  initial_point = (1, 1)
+  initial_point = (-0.5743824  -1.84219917)
+  
 
   # Set learning rate
-  learning_rate = 0.1
+  learning_rate = 0.01
 
   # Set maximum number of iterations
-  max_iterations = 100
+  max_iterations = 1000
   
   #run
   python gradient_descent_2d.py
