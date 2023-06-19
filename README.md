@@ -54,11 +54,11 @@ To use the Gradient Descent algorithm in 2 dimensions, follow these steps:
 
 It is important to choose an appropriate learning rate to ensure convergence of the algorithm. If the learning rate is too large, the algorithm may overshoot the minimum and fail to converge. If the learning rate is too small, the algorithm may take a long time to converge.
 
-- **The Gradient Descent algorithm can be extended to higher dimensions by modifying the function and the initial point accordingly.
+- The Gradient Descent algorithm can be extended to higher dimensions by modifying the function and the initial point accordingly.
 
-- **This implementation assumes that the function to minimize is continuous and differentiable.
+- This implementation assumes that the function to minimize is continuous and differentiable.
 
-- **Feel free to experiment with different functions, initial points, learning rates, and maximum iterations to see how the algorithm performs.
+- Feel free to experiment with different functions, initial points, learning rates, and maximum iterations to see how the algorithm performs.
 
 # License
 
