@@ -48,6 +48,7 @@ To use the Gradient Descent algorithm in 2 dimensions, follow these steps:
   python gradient_descent_2d.py
   ```
  
+ ![gradient descent 2D](https://github.com/jhoanmartinez/Gradient-Descent-Algorithm-in-2-Dimensions/assets/74887764/309692b3-ef6f-43b4-981c-a7f29ae05ffc)
 
 
 # Notes
