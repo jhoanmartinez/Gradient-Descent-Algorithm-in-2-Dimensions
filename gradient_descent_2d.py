@@ -61,3 +61,12 @@ for i in range(training_epochs):
 print("Local minimum:", localmin)
 print("Starting point:", startpnt)
 print("Trajectory:", trajectory)
+
+# Plot the function and trajectory
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.plot_surface(X, Y, Z, cmap='viridis')
+ax.plot(trajectory[:, 0], trajectory[:, 1], f(trajectory[:, 0], trajectory[:, 1]), 'r.-')
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_zlabel('f(x, y)')
